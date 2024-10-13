@@ -100,5 +100,5 @@ We begin by visualizing the ratings distribution to see how users have rated the
 *There is a clear tendency for users to give high ratings (between 3 and 5). Low ratings (below 2) are much less frequent, indicating that most movies are either liked or considered average by the users. 
 **Popular Genres**   
 
-    To analyze the popular genres, we'll extract individual genres from the df_movies dataset and count the occurrences.
-    ![image](https://github.com/user-attachments/assets/530d3549-eaeb-4acd-b0b1-068e4b750b80)
+To analyze the popular genres, we'll extract individual genres from the df_movies dataset and count the occurrences.
+![image](https://github.com/user-attachments/assets/530d3549-eaeb-4acd-b0b1-068e4b750b80)
