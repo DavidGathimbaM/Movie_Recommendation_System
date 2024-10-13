@@ -91,14 +91,69 @@ Merge our movies and ratings dataframes since they have the components we need f
 
 **2.2 Data Analysis**
 
-**Distribution of Ratings**
+**2.2.1 Distribution of Ratings**
 
 We begin by visualizing the ratings distribution to see how users have rated the movies.
 ![image](https://github.com/user-attachments/assets/27e862e6-37a2-456a-a6ac-bd72410eef72)
 * The ratings are highly concentrated around 4, with a peak between 3.5 and 4. This suggests that users generally tend to rate movies favorably, with 4 being the most frequent rating.   
 
 *There is a clear tendency for users to give high ratings (between 3 and 5). Low ratings (below 2) are much less frequent, indicating that most movies are either liked or considered average by the users. 
-**Popular Genres**   
+
+
+**2.2.2 Popular Genres**   
 
 To analyze the popular genres, we'll extract individual genres from the df_movies dataset and count the occurrences.
 ![image](https://github.com/user-attachments/assets/530d3549-eaeb-4acd-b0b1-068e4b750b80)
+`Drama` and `Comedy` are by far the most popular genres, with both appearing in over 4000 movies.     
+`Thriller`, `Action`, and `Romance` are also popular, though with slightly fewer appearances.   
+Genres like `War`, `Musical`, `Western`, and `IMAX` are much less frequent.  
+There's a small portion of movies where no genres are listed, which might be worth investigating.
+
+**2.2.3 Average  Rating By Genres**
+![image](https://github.com/user-attachments/assets/d7068a28-bc09-4586-a6b9-da4e8d99d6b7)
+The ratings are quite consistent across genres, with all averaging between approximately 3.0 and 4.0. Film Noir has the highest average rating, slightly above 3.8, while Horror has the lowest, just below 3.2. This suggests that, on average, viewers tend to rate movies in genres like Film Noir, War, and Documentary slightly higher, while Horror movies tend to receive relatively lower ratings
+
+**2.2.4 Distribution of Rating Count by user**
+![image](https://github.com/user-attachments/assets/20033548-3efa-42bd-9d5a-db3d4558af12)
+
+This visualization tracks how user ratings change with count. 
+It's helpful for spotting trends, such as whether ratings how willing the users are willing to rate and ot is clear that most users don't raising a concern for sparcity in our data.
+
+**2.2.5 Time-based Analysis of Ratings**
+
+This visualization tracks how user ratings change over time.
+
+It's helpful for spotting trends, such as whether ratings for certain movies or genres are rising or falling in popularity.
+
+We convert the timestamp into a year and then calculate the average rating per year.
+A line plot is used here to track the evolution of average ratings over time.
+![image](https://github.com/user-attachments/assets/b7b49955-f928-4551-a4e3-5e610ca96785)
+
+
+**3.PREPROCESSING AND MODELING**
+
+ **Recommendation Systems Algorithms:-**
+
+- KNN algorithm
+
+*a. User-based collaborative filtering*
+* Eradicate sparcity problem by increasing our data density.
+![image](https://github.com/user-attachments/assets/cbde2ab8-bcc9-4c5e-9501-14f6cb0f8f52)
+* Create user-item matrix.
+![image](https://github.com/user-attachments/assets/5942edba-51d4-4d0d-bdea-441f89c219ad)
+* Train-test split
+![image](https://github.com/user-attachments/assets/23f0ce00-3a18-4584-a559-f3e5d17db525)
+* Define a pipeline for the knn model.
+![image](https://github.com/user-attachments/assets/ab2700db-4c78-4223-9f3c-82782e942c53)
+* Model Evaluation
+![image](https://github.com/user-attachments/assets/d96b9aaa-2d08-417c-9be1-d740b8059bc4)
+
+
+
+*b. Item-based collaborative filtering*
+![image](https://github.com/user-attachments/assets/7321081c-02de-4f5f-a585-d78a56384e02)
+* Model evaluation
+* ![image](https://github.com/user-attachments/assets/2d2ced04-0a8c-48f5-a171-30c9e87abfe7)
+
+2. - Model-based algorithm
+   - ![image](https://github.com/user-attachments/assets/f1e0590b-ba15-4ae8-8eb9-15dd868d15bf)
