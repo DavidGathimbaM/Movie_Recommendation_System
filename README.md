@@ -46,3 +46,20 @@ This dataset (ml-latest-small) describes 5-star rating and free-text tagging act
 
 Users were selected at random for inclusion. All selected users had rated at least 20 movies. No demographic information is included. Each user is represented
 
+**2.1 Data Understanding and Exploratory Data Analysis (EDA)**
+
+Import the DataFiles
+![image](https://github.com/user-attachments/assets/dfa466f4-f07f-4424-85f6-dbac3442e762)
+**Summary Of Key Insights Of The 'movies' Dataset**
+
+* The Dataset contains information about 9742 *links*, including their *movieIDs* and websites the were sorced from *imbdid* and *tmdbid* (3 columns) and there data types.
+* The dataset has 8 missing entries from the *tmdbid* .No duplicate values
+
+* ![image](https://github.com/user-attachments/assets/e84d3a40-ef68-415f-8371-0e7749d1dda3)
+
+* **Summary Of Key Insights Of The 'movies' Dataset**
+
+* The Dataset contains information about 9742 *movies*(Rows), including their *movieIDs*, *titles* and *genres* (3 columns) and there data types.
+* The dataset has no missing or duplicate values
+
+
