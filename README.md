@@ -69,7 +69,17 @@ Import the DataFiles
 * The dataset has no missing or duplicate values
 ![image](https://github.com/user-attachments/assets/e5e84a51-cb4b-4c8d-ad22-67d265978583)
 
-![image](https://github.com/user-attachments/assets/61e92e94-5b9b-4f89-b175-313fa39b6c15)
+**Summary of key insights of the 'tags' Dataset**
+
+* The Dataset contains information about 3683 *tags* assigned by the user (Rows), including *userIds*,*movieId*(Foreign keys) *tags* and *timestamp* indicating when the tags were added(4 columns) and their data types
+* The dataset has no missing or duplicate values
+
+* 
+
+We begin with timestamp conversion on ratings and tags dataframes to convert into a readable format by creating a fuction that we can fit both dataframes.
+![image](https://github.com/user-attachments/assets/230fb501-0518-4bac-801d-909be78aab75)
+
+![image](https://github.com/user-attachments/assets/1f703fd2-8380-4f1e-940b-4c98e1c73ea9)
 
 
 * 
