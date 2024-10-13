@@ -88,3 +88,17 @@ We begin with timestamp conversion on ratings and tags dataframes to convert int
 
 Merge our movies and ratings dataframes since they have the components we need for the recomendation system we are to create.
 ![image](https://github.com/user-attachments/assets/a391c932-b0ab-4290-afc1-534aa31d4876)
+
+**2.2 Data Analysis**
+
+**Distribution of Ratings**
+
+We begin by visualizing the ratings distribution to see how users have rated the movies.
+![image](https://github.com/user-attachments/assets/27e862e6-37a2-456a-a6ac-bd72410eef72)
+* The ratings are highly concentrated around 4, with a peak between 3.5 and 4. This suggests that users generally tend to rate movies favorably, with 4 being the most frequent rating.   
+
+*There is a clear tendency for users to give high ratings (between 3 and 5). Low ratings (below 2) are much less frequent, indicating that most movies are either liked or considered average by the users. 
+**Popular Genres**   
+
+    To analyze the popular genres, we'll extract individual genres from the df_movies dataset and count the occurrences.
+    ![image](https://github.com/user-attachments/assets/530d3549-eaeb-4acd-b0b1-068e4b750b80)
