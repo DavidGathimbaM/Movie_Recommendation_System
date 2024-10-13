@@ -1,3 +1,4 @@
+![alt text](Images/MovieLensimgs.jpg)
 **1.INTRODUCTION**
 
 **Bussiness Understanding**
@@ -186,3 +187,20 @@ A line plot is used here to track the evolution of average ratings over time.
 - Regularly update the recommendation system with new ratings and movie data to keep the recommendations relevant.
 - Monitor the system performance over time and retrain models periodically to maintain high accuracy as user preferences evolve.
 - Consider expanding the model to include additional features (e.g., movie descriptions, directors, actors) to improve the content-based component and enhance recommendation diversity.
+
+## For More Information:
+View the [jupyter notebook](Index.ipynb) file or the [presentation](Movie Recommendation System Analysis.pptx) linked.
+
+## Presented by:
+#### David Mwai Gathimba 
+Email: david.gathimba@student.moringaschool.com
+#### Hannah Nduta Karanja 
+Email: hannah.karanja@student.moringaschool.com
+#### Joan Owuor
+Email: joan.owuor@student.moringaschool.com
+#### Linda Ng’eno
+Email: linda.ngeno@student.moringaschool.com
+#### Peter Njugu Murage
+Email: peter.murage@student.moringaschool.com
+#### Victor Muuo
+Email: victor.muuo@student.moringaschool.com
