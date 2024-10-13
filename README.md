@@ -82,5 +82,9 @@ We begin with timestamp conversion on ratings and tags dataframes to convert int
 ![image](https://github.com/user-attachments/assets/1f703fd2-8380-4f1e-940b-4c98e1c73ea9)
 
 
-* 
+* Next we Explode the movie_df to avoid the problem of sparcity.
+![image](https://github.com/user-attachments/assets/10e9874b-795e-4728-934d-18ae7d483929)
+![image](https://github.com/user-attachments/assets/30e04063-5866-46ec-b568-0886cb4a1bef)
 
+Merge our movies and ratings dataframes since they have the components we need for the recomendation system we are to create.
+![image](https://github.com/user-attachments/assets/a391c932-b0ab-4290-afc1-534aa31d4876)
