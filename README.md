@@ -62,4 +62,15 @@ Import the DataFiles
 * The Dataset contains information about 9742 *movies*(Rows), including their *movieIDs*, *titles* and *genres* (3 columns) and there data types.
 * The dataset has no missing or duplicate values
 
+![image](https://github.com/user-attachments/assets/538018bf-025d-4b46-ac4b-24acffa11355)
+**Summary of key insights of the 'ratigs' Dataset**
+
+* The Dataset contains information about 100836 user *ratings* (Rows), including *userIds*,*movieId*(Foreign key) rating and *timestamp* indicating when the rating was made(4 columns) and their data types
+* The dataset has no missing or duplicate values
+![image](https://github.com/user-attachments/assets/e5e84a51-cb4b-4c8d-ad22-67d265978583)
+
+![image](https://github.com/user-attachments/assets/61e92e94-5b9b-4f89-b175-313fa39b6c15)
+
+
+* 
 
