@@ -134,7 +134,7 @@ A line plot is used here to track the evolution of average ratings over time.
 
  **Recommendation Systems Algorithms:-**
 
-- KNN algorithm
+1. - KNN algorithm
 
 *a. User-based collaborative filtering*
 * Eradicate sparcity problem by increasing our data density.
@@ -156,4 +156,31 @@ A line plot is used here to track the evolution of average ratings over time.
 * ![image](https://github.com/user-attachments/assets/2d2ced04-0a8c-48f5-a171-30c9e87abfe7)
 
 2. - Model-based algorithm
-   - ![image](https://github.com/user-attachments/assets/f1e0590b-ba15-4ae8-8eb9-15dd868d15bf)
+ ![image](https://github.com/user-attachments/assets/f1e0590b-ba15-4ae8-8eb9-15dd868d15bf)
+  
+3. - Content based algorithm
+ ![image](https://github.com/user-attachments/assets/9f41cc11-13bd-4783-b279-eac9b82d443b)
+
+4. - Hybrid algorithm
+![image](https://github.com/user-attachments/assets/24cd41e3-9ae8-4db2-9b7b-2f64dc1ee47e)
+
+
+### 4. Project Findings
+   - **Exploratory Data Analysis (EDA):** The dataset requires timestamp conversion. Ratings data reveals a distribution skewed towards higher ratings, with 4 and 5-star ratings being the most common. 
+   - **Genre Distribution:** Some genres are more popular than others, with Drama, Comedy, and Thriller being among the top genres.
+   - **Collaborative Filtering (User and Item-Based):** Collaborative filtering based on users and items provides recommendations based on similar users or movies. Both user-based and item-based collaborative filtering were implemented using k-nearest neighbors (KNN) and evaluated using metrics such as RMSE and MAE.
+   - **Model-Based Collaborative Filtering:** Using Singular Value Decomposition (SVD), the system predicts ratings for unrated movies based on learned patterns in the ratings matrix. The SVD model yielded relatively low RMSE, indicating strong predictive performance.
+   - **Content-Based Filtering:** By utilizing TF-IDF vectors of genres, this approach successfully recommended movies with similar genres to the target movie.
+   - **Hybrid Recommendation System:** Combining collaborative filtering and content-based filtering with weighted scores resulted in a comprehensive approach that capitalizes on the strengths of both methods.
+   - **Performance Metrics:** The RMSE and MAE metrics indicate that the model-based (SVD) and hybrid approaches provide a balance between accuracy and computational efficiency.
+
+  ### Conclusions
+   The project demonstrates the effectiveness of various recommendation systems. Collaborative filtering works well when user and item interactions are dense, but may struggle with sparse datasets. Model-based filtering (SVD) offers a good balance of accuracy and scalability, while the hybrid system enhances recommendation quality by combining collaborative and content-based approaches.
+
+   ###  Recommendations
+
+ - For production, implement a hybrid model with a tunable weight between collaborative and content-based scores to personalize recommendations further based on user behavior.This helps address the "cold start" problem for new users or movies with few ratings.
+ -  Implement strategies to account for user biases in ratings, such as users who consistently rate movies higher or lower than average. Normalizing ratings or weighing ratings based on user behavior can improve recommendation
+- Regularly update the recommendation system with new ratings and movie data to keep the recommendations relevant.
+- Monitor the system performance over time and retrain models periodically to maintain high accuracy as user preferences evolve.
+- Consider expanding the model to include additional features (e.g., movie descriptions, directors, actors) to improve the content-based component and enhance recommendation diversity.
