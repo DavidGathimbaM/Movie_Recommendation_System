@@ -190,7 +190,7 @@ A line plot is used here to track the evolution of average ratings over time.
 - Consider expanding the model to include additional features (e.g., movie descriptions, directors, actors) to improve the content-based component and enhance recommendation diversity.
 
 ## For More Information:
-View the [jupyter notebook](Index.ipynb) file or the [presentation](Movie Recommendation System Analysis.pptx) linked.
+View the [jupyter notebook](Index.ipynb) file or the [presentation](https://github.com/DavidGathimbaM/Movie_Recommendation_System/blob/main/Movie%20Recommendation%20System%20Analysis.pptx) linked.
 
 ## Presented by:
 #### David Mwai Gathimba 
