@@ -134,7 +134,7 @@ A line plot is used here to track the evolution of average ratings over time.
 
  **Recommendation Systems Algorithms:-**
 
-1. - KNN algorithm
+ - 3.1KNN algorithm
 
 *a. User-based collaborative filtering*
 * Eradicate sparcity problem by increasing our data density.
@@ -155,13 +155,13 @@ A line plot is used here to track the evolution of average ratings over time.
 * Model evaluation
 * ![image](https://github.com/user-attachments/assets/2d2ced04-0a8c-48f5-a171-30c9e87abfe7)
 
-2. - Model-based algorithm
+- 3.2 Model-based algorithm
  ![image](https://github.com/user-attachments/assets/f1e0590b-ba15-4ae8-8eb9-15dd868d15bf)
   
-3. - Content based algorithm
+- 3.3 Content based algorithm
  ![image](https://github.com/user-attachments/assets/9f41cc11-13bd-4783-b279-eac9b82d443b)
 
-4. - Hybrid algorithm
+- 3.4 Hybrid algorithm
 ![image](https://github.com/user-attachments/assets/24cd41e3-9ae8-4db2-9b7b-2f64dc1ee47e)
 
 
