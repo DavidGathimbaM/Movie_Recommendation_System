@@ -110,12 +110,12 @@ Genres like `War`, `Musical`, `Western`, and `IMAX` are much less frequent.
 There's a small portion of movies where no genres are listed, which might be worth investigating.
 
 **2.2.3 Average  Rating By Genres**
-![image](https://github.com/user-attachments/assets/46d7de65-879b-4234-b83f-11a4ce16335e)
+![image](https://github.com/user-attachments/assets/6e7a828b-e377-4038-9f2d-79eb2bc9cf45)
 
 The ratings are quite consistent across genres, with all averaging between approximately 3.0 and 4.0. Film Noir has the highest average rating, slightly above 3.8, while Horror has the lowest, just below 3.2. This suggests that, on average, viewers tend to rate movies in genres like Film Noir, War, and Documentary slightly higher, while Horror movies tend to receive relatively lower ratings
 
 **2.2.4 Distribution of Rating Count by user**
-![image](https://github.com/user-attachments/assets/65069fc6-d222-43f5-a6cc-42be86a5dc13)
+![image](https://github.com/user-attachments/assets/9f2a7872-ad6f-4ba2-ae9b-549358b0e419)
 
 
 This visualization tracks how user ratings change with count. 
